@@ -12,27 +12,33 @@
   <body>
     <div class="container">
       <h1>World clock</h1>
-      <select>
+      <select id="city">
         <option value="">Select a city...</option>
-        <option value="">London</option>
-        <option value="">New York</option>
-        <option value="">Auckland</option>
+        <option value="Europe/Paris">Paris 🇫🇷</option>
+        <option value="America/New_York">New York 🇺🇸</option>
+        <option value="Pacific/Auckland">Auckland 🇳🇿</option>
+        <option value="Asia/Tokyo">Tokyo 🇯🇵</option>
+        <option value="Australia/Sydney">Sydney 🇦🇺</option>
       </select>
-      <div class="city" id="los-angeles";>
+      <div id="cities"></div>
+
+      <div class="city" id="los-angeles">
         <div>
           <h2>Los Angeles 🇺🇸</h2>
           <div class="date"></div>
         </div>
         <div class="time"><small>AM</small></div>
       </div>
-      <div class="city" id="london";>
+      <div class="city" id="london" ;>
         <div>
-        <h2>London 🇬🇧</h2>
-  
-      <div class="date"></div>
+          <h2>London 🇬🇧</h2>
+
+          <div class="date"></div>
+        </div>
+        <div class="time"><small>AM</small></div>
       </div>
-      <div class="time"><small>AM</small></div>
     </div>
+  </div>
     <footer>
       This project was coded with 💜 by <strong>Eva Heer</strong> and is
       <a href="https://github.com/zoey-maria/clock-work" target="blank"
