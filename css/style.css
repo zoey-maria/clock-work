@@ -1,5 +1,10 @@
 body {
-  background-color: #f9f7fe;
+  background: linear-gradient(
+    111.1deg,
+    rgb(0, 40, 70) -4.8%,
+    rgb(255, 115, 115) 82.7%,
+    rgb(255, 175, 123) 97.2%
+  );
   font-family: sans-serif;
 }
 
@@ -59,7 +64,7 @@ select {
 }
 
 footer {
+  color: rgb(255, 175, 123);
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
 }
